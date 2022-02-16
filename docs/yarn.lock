@@ -2580,10 +2580,9 @@ commondir@^1.0.1:
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
   integrity sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=
 
-component-docs@^0.23.0:
+component-docs@callstack/component-docs#feat/badge-annotation:
   version "0.23.0"
-  resolved "https://registry.yarnpkg.com/component-docs/-/component-docs-0.23.0.tgz#f16c3017b5dbd8c46ec0362e6d891e04947d5eb5"
-  integrity sha512-iNjN0d8GCLCi19wwhlmJOchWJPhKWeiFGt/ItxTWJFoe4c0aPPUzFj5IUI7aN0yC9f4IEVuWH8UsxGXPd7Eddw==
+  resolved "https://codeload.github.com/callstack/component-docs/tar.gz/1a5dba8790b6223b084033fd338875f9149419a4"
   dependencies:
     "@babel/core" "^7.8.4"
     "@babel/plugin-proposal-class-properties" "^7.8.3"
@@ -2596,6 +2595,7 @@ component-docs@^0.23.0:
     "@mdx-js/tag" "^0.20.3"
     babel-loader "^8.0.6"
     chalk "^3.0.0"
+    color "^3.1.2"
     core-js "3.6.4"
     cosmiconfig "^6.0.0"
     css-hot-loader "^1.4.4"
