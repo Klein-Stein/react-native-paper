@@ -13,7 +13,7 @@ type NavbarSearchProps = React.ComponentProps<typeof Searchbar> & {
 const NavbarSearch: React.FC<NavbarSearchProps> = (
   props: NavbarSearchProps
 ) => {
-  const backgroundColor = props.theme?.colors.background ?? '#cccccc';
+  const backgroundColor = props.theme?.colors.background ?? '#ffffff';
   const styles = StyleSheet.create({
     searchbar: {
       elevation: 0,

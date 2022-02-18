@@ -743,10 +743,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   bar: {
-    left: 0,
+    marginHorizontal: 16,
     right: 0,
     bottom: 0,
-    elevation: 4,
+    elevation: 0,
   },
   barContent: {
     alignItems: 'center',
