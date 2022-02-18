@@ -38,6 +38,7 @@ import TouchableRippleExample from './Examples/TouchableRippleExample';
 import ThemeExample from './Examples/ThemeExample';
 import RadioButtonItemExample from './Examples/RadioButtonItemExample';
 import AnimatedFABExample from './Examples/AnimatedFABExample';
+import NavbarExample from './Examples/NavbarExample';
 
 export const examples: Record<
   string,
@@ -64,6 +65,7 @@ export const examples: Record<
   listAccordionGroup: ListAccordionExampleGroup,
   listSection: ListSectionExample,
   menu: MenuExample,
+  navbar: NavbarExample,
   progressbar: ProgressBarExample,
   radio: RadioButtonExample,
   radioGroup: RadioButtonGroupExample,
